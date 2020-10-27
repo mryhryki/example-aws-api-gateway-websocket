@@ -6,5 +6,8 @@
   "scripts": {
     "deploy": "source .env && serverless deploy",
     "setup": "cp .env.template .env"
+  },
+  "dependencies": {
+    "serverless-pseudo-parameters": "^2.5.0"
   }
 }
