@@ -15,24 +15,24 @@ provider:
     - Effect: "Allow"
       Action:
         - "execute-api:Invoke"
-      Resource: "arn:aws:execute-api:#{AWS::Region}:#{AWS::AccountId}:*/${self:provider.stage}/POST/prod/*"
+      Resource: "arn:aws:execute-api:#{AWS::Region}:#{AWS::AccountId}:*/${self:provider.stage}/POST/*"
 
 plugins:
   - "serverless-pseudo-parameters"
 
 functions:
   onConnect:
-    handler: "handler/connect.handler"
+    handler: "index.onConnect"
     events:
       - websocket:
           route: "$connect"
   onMessage:
-    handler: "handler/message.handler"
+    handler: "index.onMessage"
     events:
       - websocket:
           route: "$default"
   onDisconnect:
-    handler: "handler/disconnect.handler"
+    handler: "index.onDisconnect"
     events:
       - websocket:
           route: "$disconnect"

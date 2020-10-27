@@ -3,12 +3,16 @@
   "author": "hyiromori",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.9.0"
+  },
   "scripts": {
-    "deploy": "source .env && serverless deploy",
-    "setup": "cp .env.template .env"
+    "deploy": "source .env && npx serverless deploy",
+    "remove": "source .env && npx serverless remove",
+    "setup": "npm ci && (test -f '.env' || cp .env.template .env)"
   },
   "dependencies": {
-    "aws-sdk": "^2.779.0",
     "serverless-pseudo-parameters": "^2.5.0"
   }
 }
