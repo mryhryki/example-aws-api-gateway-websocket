@@ -122,7 +122,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "hyiromori-temp",
-          "S3Key": "serverless/example-aws-api-gateway-websocket/prod/1603788105777-2020-10-27T08:41:45.777Z/example-aws-api-gateway-websocket.zip"
+          "S3Key": "serverless/example-aws-api-gateway-websocket/prod/1603790115320-2020-10-27T09:15:15.320Z/example-aws-api-gateway-websocket.zip"
         },
         "FunctionName": "example-aws-api-gateway-websocket-prod-onConnect",
         "Handler": "handler/connect.handler",
@@ -145,7 +145,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "hyiromori-temp",
-          "S3Key": "serverless/example-aws-api-gateway-websocket/prod/1603788105777-2020-10-27T08:41:45.777Z/example-aws-api-gateway-websocket.zip"
+          "S3Key": "serverless/example-aws-api-gateway-websocket/prod/1603790115320-2020-10-27T09:15:15.320Z/example-aws-api-gateway-websocket.zip"
         },
         "FunctionName": "example-aws-api-gateway-websocket-prod-onMessage",
         "Handler": "handler/message.handler",
@@ -168,7 +168,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "hyiromori-temp",
-          "S3Key": "serverless/example-aws-api-gateway-websocket/prod/1603788105777-2020-10-27T08:41:45.777Z/example-aws-api-gateway-websocket.zip"
+          "S3Key": "serverless/example-aws-api-gateway-websocket/prod/1603790115320-2020-10-27T09:15:15.320Z/example-aws-api-gateway-websocket.zip"
         },
         "FunctionName": "example-aws-api-gateway-websocket-prod-onDisconnect",
         "Handler": "handler/disconnect.handler",

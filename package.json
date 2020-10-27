@@ -8,6 +8,7 @@
     "setup": "cp .env.template .env"
   },
   "dependencies": {
+    "aws-sdk": "^2.779.0",
     "serverless-pseudo-parameters": "^2.5.0"
   }
 }
