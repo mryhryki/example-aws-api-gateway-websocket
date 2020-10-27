@@ -3,5 +3,8 @@
   "author": "hyiromori",
   "license": "MIT",
   "private": true,
-  "scripts": {}
+  "scripts": {
+    "deploy": "source .env && serverless deploy",
+    "setup": "cp .env.template .env"
+  }
 }
