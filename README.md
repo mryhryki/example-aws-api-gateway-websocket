@@ -34,7 +34,7 @@ WebSocket のエンドポイントが表示されます。
 
 
 
-## Test on Browser
+## Test on Chrome DevTools
 
 ```javascript
 var WebSocketURL = 'wss://xxxxxxxxxx.execute-api.(AWS_REGION).amazonaws.com/prod';
@@ -44,7 +44,7 @@ ws.send('{}')
 // {endpoint: "https://xxxxxxxxxx.execute-api.(AWS_REGION).amazonaws.com/prod", connectionId: "XXXXXXXXXXXXXXX="}
 ```
 
-送信に必要な情報が返ってくる
+Chrome DevTools のコントールで上のコードを実行すると、送信に必要な情報が返ってくる
 
 
 
