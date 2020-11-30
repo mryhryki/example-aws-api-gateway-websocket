@@ -16,12 +16,9 @@ $ npm run setup
 
 ```bash
 $ npm run deploy
-
 (略)
-
 endpoints:
-  wss://xxxxxxxxxx.execute-api.(AWS_REGION).amazonaws.com/prod
-
+  wss://xxxxxxxxxx.execute-api.(AWS_REGION).amazonaws.com/dev
 (略)
 ```
 
